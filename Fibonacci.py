@@ -7,7 +7,9 @@ def fib(n):
         return fib(n - 1) + fib(n - 2)
 
 def main():
-    for i in range(16):
+    n = 16
+    print("The Fibonacci series for", n)
+    for i in range(n):
         print(fib(i), end=", ")
     print("...")
 
